@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+body {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+h2 {
+  position: relative;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.score-panel {
+  width: 505px;
+  margin: 5px auto 0 auto;
+  position: relative;
+}
+
+.points, .wins, .restart {
+  display: inline-block;
+}
+
+.points, .wins {
+  padding-right: 60px;
+}
+
+button {
+  border-radius: 10px;
+  font-family: 'Righteous', cursive;
+  background-color: rgb(90, 127, 235);
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(90, 235, 130);
+  text-shadow: 1px 1px rgb(111, 112, 113);
+}
+
+button:active {
+  background-color: rgb(238, 158, 46);
+}
